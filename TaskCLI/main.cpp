@@ -33,7 +33,7 @@ void addTask(){
 void printTasks(){
   for(size_t i{0}; i < tasks.size(); i++){
     std::cout << i + 1 << ". " << tasks[i].taskName
-              << "Completed: " << (tasks[i].completed ? "Yes" : "No") << "\n";
+              << " Completed: " << (tasks[i].completed ? "Yes" : "No") << "\n";
   }
 }
 
