@@ -40,7 +40,7 @@ void printTasks(){
 int main(){
   
   int userAction{};
-  std::cout << "Hello, you are using Brett's task manager \n";
+  std::cout << "Hello, you are using Brett's Task Manager! \n";
 
   while(userAction != 3){
     std::cout << "Enter 1 to add a new task \n"
