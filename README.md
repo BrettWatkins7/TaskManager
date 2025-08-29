@@ -42,3 +42,4 @@ Features:
 3. Build the project using the provided Makefile:
    ```bash
    make
+   ./taskgui
