@@ -32,3 +32,13 @@ Features:
 2. Build the project using your preferred C++ compiler, e.g.:
    ```bash
    g++ -std=c++17 -o taskcli main.cpp
+
+
+### TaskGUI
+1. Navigate to the `TaskGUI` directory.
+2. Make sure you have dependencies installed:
+   Linux: GLFW, OpenGL development libraries
+   macOS: brew install glfw
+3. Build the project using the provided Makefile:
+   ```bash
+   make
