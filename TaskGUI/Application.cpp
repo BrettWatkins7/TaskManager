@@ -15,8 +15,9 @@ std::string placeholder = "";
 namespace Tasking{
 
 	void RenderUI(){
-
-	ImGui::Begin("Tasks");
+	ImGui::SetNextWindowPos(ImVec2(0, 0));
+	ImGui::SetNextWindowSize(ImGui::GetIO().DisplaySize);
+	ImGui::Begin("Tasks", nullptr, ImGuiWindowFlags_NoTitleBar | ImGuiWindowFlags_NoResize | ImGuiWindowFlags_NoMove);
 	ImGui::SetNextItemWidth(300);
 	ImGui::InputText(" ", &placeholder);
 	ImGui::SameLine();
