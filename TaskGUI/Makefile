@@ -2,7 +2,7 @@ CXX = g++
 CXXFLAGS = -I./imgui -I./imgui/backends -Wall -std=c++17
 
 SOURCES = main.cpp \
-					Application.cpp \
+					app.cpp \
 					imgui/imgui.cpp \
 					imgui/imgui_draw.cpp \
 					imgui/imgui_widgets.cpp \
